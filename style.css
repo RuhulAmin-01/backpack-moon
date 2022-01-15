@@ -1,10 +1,16 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #f0e5e5;
+}
+
+section{
+  padding: 2px 20px 100px 50px;
+}
+.sec-1{
+  background-color: rgba(255, 248, 220, 0.397);
 }
 .header{
   padding: 40px 0;
-  margin-bottom: 100px;
+  margin-bottom: 1px;
 }
 .nav-item{
   margin-left: 25px;
@@ -19,4 +25,102 @@ li {
 }
 img{
   width: 300px;
+}
+
+.main-part, .all-services{
+  display: grid;
+  grid-gap: 30px;
+  margin-top: 30px;
+  place-items: center;
+
+}
+
+.main-part{
+  padding-left: 5%;
+
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.all-services{
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 5%;
+
+}
+
+.half-width{
+  padding: 50px 1px;
+}
+
+h1{
+  margin: 0px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.text-highlight{
+  color: rgb(56, 199, 139);
+}
+.cart img{
+  width: 25px;
+}
+.link-button{
+  text-decoration: none;
+  background-color: darkslateblue;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.services{
+  display: grid;
+  grid-gap: 10px;
+  margin-top: 30px;
+  place-items: center;
+
+}
+.services{
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.services img{
+width: 100%;}
+.service img{
+  height: 100px;
+  width: 100px;
+}
+
+h2{
+  font-weight: bolder;
+}
+.service{
+  border: 0px;
+  display: grid;
+  border-radius: 15px;
+  padding: 10px 20px;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+
+
+
+@media (max-width: 668px){
+  .main-part{
+    grid-template-columns: repeat(1, 1fr);
+
+  }  
+  .all-services{
+    padding: 0%;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  .service{
+    padding-top: 5%;
+    grid-template-columns: repeat(1, 1fr);
+
+
+  }
+
 }
