@@ -1,0 +1,22 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #f0e5e5;
+}
+.header{
+  padding: 40px 0;
+  margin-bottom: 100px;
+}
+.nav-item{
+  margin-left: 25px;
+}
+ul,ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+img{
+  width: 300px;
+}
