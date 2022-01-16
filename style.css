@@ -65,7 +65,7 @@ h1{
 .link-button{
   text-decoration: none;
   background-color: darkslateblue;
-  padding: 20px 30px;
+  padding: 20px 20px;
   border-radius: 10px;
   color: white;
 }
@@ -101,7 +101,32 @@ h2{
 
 }
 
+.backpacks{
+  display:grid;
+  grid-gap: 30px;
+  place-items: center;
+  padding: 0px 5%;
+  grid-template-columns: repeat(3, 1fr);
 
+}
+.backpack{
+  text-align: center;
+  padding: 5% 5%;
+  border-radius: 20px;
+}
+.bp-img{
+  border: 0;
+  background-color: rgba(211, 211, 211, 0.534);
+  padding: 7% 7%;
+  border-radius: 20px;
+  border-bottom: 10px;
+}
+.card-bottom{
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+
+}
 
 
 /* Media Querry */
@@ -121,6 +146,14 @@ h2{
     grid-template-columns: repeat(1, 1fr);
 
 
+  }
+  .backpacks{
+    display:grid;
+    grid-gap: 30px;
+    place-items: center;
+    padding: 0px 5%;
+    grid-template-columns: repeat(1, 1fr);
+  
   }
 
 }
